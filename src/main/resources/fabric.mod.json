@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "armormaking",
+  "version": "${version}",
+  "name": "Armor Making Mod",
+  "description": "Villager trading + anvil automation: buys armor, crafts tools/spear and enchants everything (Unbreaking, Mending, Protection, Sharpness...). Toggle with K.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/armormaking/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.armormaking.ArmorMakingMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
